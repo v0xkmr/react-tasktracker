@@ -42,6 +42,7 @@ class Login extends Component {
                 console.log(res.data);
                 console.log(jwt_decode(res.data));
                 this.props.setToken(jwt_decode(res.data));
+                this.props.history.push('/');
             } catch (e) {
                 console.log(e.response);
                 if (e.response.status = 400) {

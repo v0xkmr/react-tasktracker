@@ -14,7 +14,7 @@ const Navbar = (props) => {
                     props.name ?
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item"><button type="button" class="btn btn-outline-primary"><i class="fas fa-user mr-2"></i>Hi {props.name}</button></li>
-                            <li class="nav-item mx-4"><button type="button" class="btn btn-outline-primary">Logout</button></li>
+                            <li class="nav-item mx-4"><button type="button" class="btn btn-outline-primary" onClick={props.clearToken}>Logout</button></li>
                         </ul> :
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item"><Link to="/login" className="btn btn-outline-primary">Login</Link></li>
