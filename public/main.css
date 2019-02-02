@@ -1,0 +1,78 @@
+.mainbody{
+    width: 100%;
+    height: calc(100vh - 59px);
+    background: rgb(44, 52, 59);
+}
+
+.maintext{
+    position: absolute;
+    color:white;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.centerbutton{
+    background: white;
+}
+
+.centerbutton:hover{
+    background: rgb(44, 52, 59);
+    color:white;
+}
+
+.down{
+    background: white;
+    color:rgb(44, 52, 59);
+}
+
+.navbar{
+    border-bottom: 3px solid rgb(44, 52, 59);
+}
+
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color:rgb(44, 52, 59)
+}
+
+.navbar-nav{
+    margin-right: 60px;
+}
+
+.btn-outline-primary{
+    border-color: rgb(44, 52, 59);
+    color: rgb(44, 52, 59);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.btn-outline-primary:hover{
+    background: rgb(44, 52, 59);
+    border-color: rgb(44, 52, 59);
+}
+
+.fa-1x{
+    margin-left: 50px;
+}
+
+.card-header,.card-footer{
+    padding: 1px;
+    margin-left: 10px;
+}
+
+.card-body{
+    padding:7px;
+}
+
+a{
+    color:rgb(44, 52, 59);
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgb(44, 52, 59);
+    text-decoration: none;
+}
