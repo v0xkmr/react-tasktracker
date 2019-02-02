@@ -6,7 +6,7 @@ class LandingPage extends Component {
     render() {
         // console.log(this.props.id);
         const content = this.props.id ?
-            <Post id={this.props.id} />
+            <Post id={this.props.id} clearToken={this.props.clearToken} />
             : (
                 <div className="mainbody">
                     <div className="maintext">

@@ -45,6 +45,7 @@ class Post extends Component {
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
                         <Link to={{ pathname: '/add', customerId: `${this.props.id}` }} className="btn btn-outline-primary mb-2">Create Task</Link>
+                        <button type="button" class="btn btn-outline-primary d-block d-sm-none mb-2" onClick={this.props.clearToken}>Logout</button>
                         {
                             this.state.spinner ?
                                 <div class="text-center">

@@ -37,7 +37,7 @@ class MainComponent extends Component {
             <React.Fragment>
                 <Navbar name={this.state.name} clearToken={this.clearToken} />
                 <Switch>
-                    <Route exact path="/" render={(props) => <LandingPage id={this.state.id} {...props} />} />
+                    <Route exact path="/" render={(props) => <LandingPage id={this.state.id} clearToken={this.clearToken} {...props} />} />
                     <Route path="/login" render={(props) => <Login setToken={this.setToken} {...props} />} />
                     <Route path="/register" render={(props) => <Register setToken={this.setToken} {...props} />} />
                     <Route path="/edit" render={(props) => <EditPost {...props} />} />
